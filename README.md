@@ -7,11 +7,30 @@ Notes :
  * Developped after an initial PR on html_email_handler to add a hook to change subject 
  *   (same as notify:entity:message core hook, but for subjects)
  * Used hook is implemented in advanced_notifications (by Coldtrick) / and this html_email_handler version
- * Also built after careful reading of notification_subjects by Matt Backet (but missing blog support)
+ * Also built after careful reading of notification_subjects by Matt Backet
 
 
 HISTORY :
-0.3 : 20140326.. - Forum replies and generic_comment support
+
+1.12.2-rc2 : 20180125 - Avoid duplicate messages for comments (use only hooks to send emails)
+
+1.12.2-rc1 : 20171103
+
+1.12.2-beta : 20171031 - Better settings
+ * Added several settings to control recipients and notification events :
+   - notify owner
+   - notify self
+   - notify participants
+   - notifify top container subscribers
+ * Rewrite some helper functions
+
+1.12.1 : 20171004 - Better settings and explanations
+ * Adding registered notifications events settings and support
+ * Added list of registered hooks and events related to notifications control
+
+1.12.0-dev : 20160311 - Updating to Elgg 1.12
+
+0.3 : 20140326 - Forum replies and generic_comment support
 
 0.2 : 201403.. - First functionnal version (new objects)
 
