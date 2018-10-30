@@ -1,6 +1,6 @@
 {
 	"name": "facyla/notification_messages",
-	"version": "1.12.3",
+	"version": "2.3.0",
 	"type": "elgg-plugin",
 	"repositories": [
 		{
